@@ -13,12 +13,27 @@
         .paraf{ color: brown;
 
         }
+        #id2{
+            color: aqua;
+        }
+        .fd{
+            border: 1px solid blue;
+            background-color: aqua;
+            width: 40%;
+            margin: auto;
+            border-radius: 30px;
+
+        }
+        
     </style>
 
 </head>
 <body>
-    <table border="1" width="70%">
+    <table border="1" width="90%";  align="center">
         <thead id="head">
+            <tr>
+                <th colspan="4">Weekly Lesson Schedule</th>
+            </tr>
             <tr>
                 <th rowspan="2">Day</th>
                 <th colspan="2">Schedule</th>
@@ -32,12 +47,12 @@
         </thead>
         <tbody>
             <tr>
-                <td id="td"; >Tuesday</td>
+                <td id="td"; >Monday</td>
                 <td>time1</td>
                 <td>time2</td>
                 <td rowspan="2">
-                    Computer Fundamental
-                    <ul>
+                    <l1 id="id3">-Computer Fundamental-</l1>
+                    <ul align="left">
                         <li>Hardware</li>
                         <li>OS</li>
                         <li>Storage</li>
@@ -46,18 +61,47 @@
                 </td>
             </tr>
             <tr>
-                <td rowspan="3">Thursday</td>
+                <td rowspan="3">Tuesday</td>
                 <td>time3</td>
                 <td>time4</td>
             </tr>
             <tr>
-                <td>time5</td>
-                <td>time6</td>
+                <td rowspan="2">time5</td>
+                <td rowspan="2">time6</td>
                 <td rowspan="2"> HTML <br> CSS</td>
             </tr>
             <tr>
-                <td>time7</td>
-                <td>time8</td>
+                <!--bu boşluğu bırakmadan yapamadım.-->>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>time9</td>
+                <td>time10</td>
+                <td>Gıt-GitHub</td>
+
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>time11</td>
+                <td>time12</td>
+                <td>HTML/CSS-2</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>time14</td>
+                <td>time15</td>
+                <td>Git-GitHub-2</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td colspan="2" rowspan="2">All times are yours</td>
+                <td rowspan="2"><div class="fd">Weekend</td>
+                </tr>
+            </div>
+            
+            <tr>
+                <td>Sunday</td>
+               
             </tr>
         </tbody>
     </table>
